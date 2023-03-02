@@ -1,0 +1,28 @@
+.container{
+    .addtodo{
+        .add{
+            margin-left: 10px;
+            cursor: pointer;
+        }
+    }
+    .list-todo-content{
+        .todochill{
+            display: flex;
+             align-items: center;
+             justify-content: space-between;
+            width: 500px;
+            height: 40px;
+            border-bottom: 1px solid gray;
+            margin: 10px auto;
+            .btn{
+                display: flex;
+                 align-items: center;
+                .edit,
+                .delete{
+                    margin-left: 10px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
