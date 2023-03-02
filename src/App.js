@@ -1,6 +1,6 @@
 import logo from "./img/logo.svg";
 import "./style/App.scss";
-import ListTodo from "./view/todoApp/ListTodo.js";
+import ListTodo from "./view/TodoApp/ListTodo.js";
 function App() {
   return (
     <div className="App">
